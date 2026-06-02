@@ -53,7 +53,7 @@ const links: ContactLink[] = [
     isResume: true,
     label: "Resume",
     value: "Download PDF",
-    href: "/akanksha_resume.pdf",
+    href: "/akanksha_resume_final.pdf",
     description: "View full experience",
   },
 ];

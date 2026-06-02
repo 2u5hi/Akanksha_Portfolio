@@ -55,7 +55,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/akanksha_resume.pdf"
+              href="/akanksha_resume_final.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -99,7 +99,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="/akanksha_resume.pdf"
+              href="/akanksha_resume_final.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-dm-sans)" }}
