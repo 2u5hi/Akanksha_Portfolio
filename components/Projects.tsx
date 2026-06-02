@@ -50,7 +50,7 @@ const projects: Project[] = [
     files: [
       {
         label: "Analysis Workbook",
-        url: "/projects/business-analysis.xlsx",
+        url: "/projects/business-analysis-revised.xlsx",
         type: "xlsx",
       },
     ],
