@@ -28,7 +28,7 @@ export default function Footer() {
             Email
           </a>
           <a
-            href="https://www.linkedin.com/in/akankshawadhwan"
+            href="https://www.linkedin.com/in/akanksha-wadhwan-b81383292/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ fontFamily: "var(--font-dm-sans)" }}

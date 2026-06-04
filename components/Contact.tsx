@@ -45,7 +45,7 @@ const links: ContactLink[] = [
     isLinkedIn: true,
     label: "LinkedIn",
     value: "linkedin.com/in/akankshawadhwan",
-    href: "https://www.linkedin.com/in/akankshawadhwan",
+    href: "https://www.linkedin.com/in/akanksha-wadhwan-b81383292/",
     description: "Let's connect professionally",
   },
   {
