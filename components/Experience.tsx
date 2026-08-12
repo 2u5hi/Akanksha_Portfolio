@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import FadeIn from "./FadeIn";
 
 interface Role {
@@ -9,6 +10,7 @@ interface Role {
   company: string;
   period: string;
   location: string;
+  logo?: string;
   highlights: string[];
   tools: string[];
   accent: string;
@@ -21,6 +23,7 @@ const roles: Role[] = [
     company: "RetroSynth Records",
     period: "July 2026 – Present",
     location: "Remote · Austin, TX",
+    logo: "/retrosynth-logo.jpg",
     highlights: [
       "Create promotional video content in Canva for artist releases and campaigns, developing visuals aligned with each artist's branding, music style, and promotional direction",
       "Publish and coordinate promotional content across multiple social media platforms, adapting creative assets, captions, and formats for platform-specific audiences",
@@ -35,6 +38,7 @@ const roles: Role[] = [
     company: "Phenix Salon Suites",
     period: "May 2023 – Apr. 2026",
     location: "Cumming, GA",
+    logo: "/phenix-logo.png",
     highlights: [
       "Assisted the manager and owner with administrative tasks, demonstrating strong time-management, organizational, and multitasking abilities in a fast-paced environment",
       "Supported marketing initiatives by promoting services to prospective clients, applying communication and interpersonal skills to drive client acquisition",
@@ -84,6 +88,20 @@ export default function Experience() {
                   {/* Left meta */}
                   <div className="flex flex-col justify-between">
                     <div>
+                      {role.logo && (
+                        <div
+                          className="relative w-full max-w-[200px] aspect-video rounded-xl overflow-hidden border mb-6"
+                          style={{ borderColor: "#e8c4b8", backgroundColor: "#ffffff" }}
+                        >
+                          <Image
+                            src={role.logo}
+                            alt={`${role.company} logo`}
+                            fill
+                            sizes="200px"
+                            className="object-contain"
+                          />
+                        </div>
+                      )}
                       <span
                         style={{ fontFamily: "var(--font-playfair)" }}
                         className="text-6xl font-semibold opacity-10 text-[#2c3e50] leading-none"
