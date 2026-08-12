@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
   { label: "About", href: "#about" },
+  { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -55,7 +56,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="/akanksha_resume_final.pdf"
+              href="/akanksha_resume_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-dm-sans)" }}
@@ -99,7 +100,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="/akanksha_resume_final.pdf"
+              href="/akanksha_resume_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-dm-sans)" }}
